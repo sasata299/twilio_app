@@ -4,6 +4,8 @@ TwilioApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'sample#index'
+  get 'call' => 'sample#call'
+  get 'callback' => 'sample#callback'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
