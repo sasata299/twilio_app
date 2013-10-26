@@ -1,3 +1,23 @@
 // Place all the styles related to the sample controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+iframe {
+  width: 100%;
+  height: 700px;
+  margin-top: 450px;
+}
+
+.container {
+  width: 100%;
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+
+    background: image-url('quiiz2.png') no-repeat top center;
+    background-size: 100%;
+    height: 2200px;
+  }
+}
+

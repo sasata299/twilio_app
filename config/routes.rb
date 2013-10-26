@@ -8,6 +8,8 @@ TwilioApp::Application.routes.draw do
   get 'callback' => 'sample#callback'
   get 'receive' => 'sample#receive'
 
+  get 'dashboard' => 'sample#dashboard'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

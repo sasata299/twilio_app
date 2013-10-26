@@ -32,4 +32,7 @@ class SampleController < ApplicationController
       xml.Play('http://b.pps.me.uk/demo/1310/quiize2.wav')
     }
   end
+
+  def dashboard
+  end
 end
