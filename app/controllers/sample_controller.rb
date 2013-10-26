@@ -8,8 +8,6 @@ class SampleController < ApplicationController
       :to => "+81#{ENV['TO']}",
       :url => 'http://twilio-299.heroku.com/callback'
     )
-
-    render text: 'done'
   end
 
   #<Say voice="woman">Please leave a message after the tone.</Say>
